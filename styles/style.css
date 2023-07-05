@@ -45,7 +45,7 @@
     margin-top: 1px;
 }
 
-.header__contacts {
+.contacts {
     height: 100%;
     width: 240px;
     display: flex;
@@ -55,29 +55,29 @@
     line-height: 24px;
 }
 
-.header__contacts-phone {
+.contacts-phone {
     width: 133px;
     height: 24px;
     text-decoration: none;
     border-bottom: 1px solid;
 }
 
-.header__contacts-phone:hover {
+.contacts-phone:hover {
     border: none;
 }
 
-.header__contacts-mail {
+.contacts-mail {
     width: 130px;
     height: 24px;
     text-decoration: none;
     border-bottom: 1px solid;
 }
 
-.header__contacts-mail:hover {
+.contacts-mail:hover {
     border: none;
 }
 
-.header__contacts-address {
+.contacts-address {
     font-style: normal;
 }
 
@@ -295,4 +295,44 @@
 
 .about__text p:last-child {
     margin-bottom: 0;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 90px;
+    width: 1340px;
+    height: 97px;
+}
+
+.footer__links-list {
+    list-style: none;
+    font-size: 18px;
+    text-align: center;
+    text-transform: lowercase;
+}
+
+.footer__links-list-item a {
+    text-decoration: none;
+    border-bottom: 1px solid;
+}
+
+.footer__links-list-item a:hover {
+    border-bottom: none;
+}
+
+.footer__social-list {
+    display: flex;
+    justify-content: space-between;
+    width: 240px;
+    list-style: none;
+}
+
+.footer__social-link {
+    display: block;
+    z-index: 1;
+}
+
+.footer__logo-image {
+    height: 48px;
 }

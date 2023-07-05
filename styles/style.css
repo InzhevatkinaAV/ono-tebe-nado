@@ -1,338 +1,337 @@
 .content-section {
-    margin: auto;
-    width: 1440px;
+  margin: auto;
+  width: 1440px;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding: 0 50px;
-    height: 110px;
-    margin: 91px auto 92px auto;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 50px;
+  height: 110px;
+  margin: 91px auto 92px auto;
 }
 
 .header__links-list {
-    display: flex;
-    align-items: center;
-    height: 100%;
-    list-style: circle;
-    font-size: 18px;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  list-style: circle;
+  font-size: 18px;
 }
 
 .header__links-list-item {
-    margin-right: 33px;
-    text-transform: lowercase;
+  margin-right: 32px;
+  text-transform: lowercase;
 }
 
 .header__links-list-item a:hover {
-    cursor: pointer;
-    border: none;
+  cursor: pointer;
+  border: none;
 }
 
 .header__links-list-item a {
-    text-decoration: none;
-    border-bottom: 1px solid;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .header__links-list-item_no-bullit {
-    list-style: none;
+  list-style: none;
 }
 
 .header__logo-image {
-    width: 148px;
-    height: 105px;
-    margin-right: 181px;
-    margin-top: 1px;
+  width: 148px;
+  height: 105px;
+  margin-right: 178px;
+  margin-top: 1.5px;
 }
 
 .contacts {
-    height: 100%;
-    width: 240px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    font-size: 18px;
-    line-height: 24px;
+  height: 100%;
+  width: 240px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 18px;
+  line-height: 24px;
 }
 
 .contacts-phone {
-    width: 133px;
-    height: 24px;
-    text-decoration: none;
-    border-bottom: 1px solid;
+  width: 133px;
+  height: 24px;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .contacts-phone:hover {
-    border: none;
+  border: none;
 }
 
 .contacts-mail {
-    width: 130px;
-    height: 24px;
-    text-decoration: none;
-    border-bottom: 1px solid;
+  width: 130px;
+  height: 24px;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .contacts-mail:hover {
-    border: none;
+  border: none;
 }
 
 .contacts-address {
-    font-style: normal;
+  font-style: normal;
 }
 
 #cover {
-    position: relative;
-    background-image: url(../images/cover.jpg);
-    height: 757px;
-    padding: 165px 50px 50px 50px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: -2;
+  position: relative;
+  background-image: url(../images/cover.jpg);
+  height: 757px;
+  padding: 165px 50px 50px 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -2;
 }
 
 .overlay {
-    position: absolute;
-    background-color: rgb(0, 0 , 0, .6);
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: 0;
-    z-index: -1;
+  position: absolute;
+  background-color: rgb(0, 0 , 0, .6);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: -1;
 }
 
 #cover {
-    margin-bottom: 180px;
+  margin-bottom: 180px;
 }
 
 .cover__title {
-    width: 1340px;
-    height: 355px;
-
-    color: #FFF;
-    font-size: 100px;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 30px;  
+  width: 1340px;
+  height: 355px;
+  color: #FFF;
+  font-size: 100px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 30px;  
 }
 
 .aligned-text {
-    display: block;
-    line-height: 115%;
+  display: block;
+  line-height: 115%;
 }
 
 .aligned-text_center {
-    display: block;
-    margin: 20px 50px 11px 50px;
-    text-align: center;
-    line-height: 100%;
+  display: block;
+  margin: 20px 50px 11px 50px;
+  text-align: center;
+  line-height: 100%;
 }
 
 .aligned-text_right {
-    display: block;
-    text-align: right;
+  display: block;
+  text-align: right;
 }
 
 .letter-spacing-extended {
-    letter-spacing: 60px;  
+  letter-spacing: 60px;  
 }
 
 .no-letter-spacing {
-    letter-spacing: 0;
+  letter-spacing: 0;
 }
 
 .cover__description {
-    display: flex;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
-    width: 1340px;
-    align-items: center;
-    justify-content: end;
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  right: 50px;
+  width: 1340px;
+  align-items: center;
+  justify-content: end;
 
-    color: #FFF;
-    text-transform: uppercase; 
+  color: #FFF;
+  text-transform: uppercase; 
 }
 
 .cover__description-text {
-    line-height: 28px;
-    font-weight: normal;
-    margin-right: 78px;
-    word-spacing: 18px;
-    font-size: 22px;
+  line-height: 28px;
+  font-weight: normal;
+  margin-right: 78px;
+  word-spacing: 18px;
+  font-size: 22px;
 }
 
 .bet-button {
-    width: 257px;
-    height: 52px;
-    background-color: rgba(0,0,0,0);
-    border: 1px solid #FFF;
-    color: #FFF;
-    font-size: 22px;
-    text-transform: uppercase;
+  width: 257px;
+  height: 52px;
+  background-color: rgba(0,0,0,0);
+  border: 1px solid #FFF;
+  color: #FFF;
+  font-size: 22px;
+  text-transform: uppercase;
 }
 
 #lots {
-    margin-bottom: 181px;
+  margin-bottom: 181px;
 }
 
 .lots__heading {
-    margin-left: 90px;
-    margin-bottom: 27px;
-    font-size: 40px;
-    text-transform: uppercase;
+  margin-left: 90px;
+  margin-bottom: 27px;
+  font-size: 40px;
+  text-transform: uppercase;
 }
 
 .lots__card-list {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 25px;
-    flex-grow: 1;
-    margin: 0 50px 30px 50px;
-    list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  flex-grow: 1;
+  margin: 0 50px 30px 50px;
+  list-style: none;
 }
 
 .card {
-    position: relative;
-    width: 430px;
-    height: 450px;
-    padding: 50px 40px;
-    color: #FFF;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    z-index: 1;
+  position: relative;
+  width: 430px;
+  height: 450px;
+  padding: 50px 40px;
+  color: #FFF;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 1;
 }
 
 .card-link {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 .card_type_film {
-    background-image: url(../images/card-lot-01.jpg);
+  background-image: url(../images/card-lot-01.jpg);
 }
 
 .card_type_book {
-    background-image: url(../images/card-lot-02.jpg);
+  background-image: url(../images/card-lot-02.jpg);
 }
 
 .card_type_picture {
-    background-image: url(../images/card-lot-03.jpg);
+  background-image: url(../images/card-lot-03.jpg);
 }
 
 .article {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 100%;
-    height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 100%;
+  height: 100%;
 }
 
 .card__title {
-    font-size: 22px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-decoration: underline;
+  font-size: 22px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-decoration: underline;
 }
 
 .card__text {
-    font-size: 20px;
+  font-size: 20px;
 }
 
 .lots__look-more-link {
-    margin-left: 90px;
-    font-size: 20px;
-    text-transform: lowercase;
-    text-decoration: none;
-    border-bottom: 1px solid;
+  margin-left: 90px;
+  font-size: 20px;
+  text-transform: lowercase;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .lots__look-more-link:hover {
-    cursor: pointer;
-    border-bottom: none;
+  cursor: pointer;
+  border-bottom: none;
 }
 
 #about {
-    display: grid;
-    grid-template-columns: 430px auto;
-    column-gap: 25px;
-    margin-bottom: 180px;
-    padding: 0 50px;
+  display: grid;
+  grid-template-columns: 430px auto;
+  column-gap: 25px;
+  margin-bottom: 180px;
+  padding: 0 50px;
 }
 
 .about__logo-wrapper {
-    padding: 0 95px;
+  padding: 0 95px;
 }
 
 .about__logo {
-    display: flex;
-    width: 240px;
-    height: 240px;
-    border-radius: 50%;
-    background-color: #000;
+  display: flex;
+  width: 240px;
+  height: 240px;
+  border-radius: 50%;
+  background-color: #000;
 }
 
 .about__logo-image {
-    width: 148px;
-    margin: auto;
+  width: 148px;
+  margin: auto;
 }
 
 .about__title {
-    margin: 100px 0;
-    text-transform: uppercase;
-    font-size: 40px;
-    font-weight: 600;
+  margin: 100px 0;
+  text-transform: uppercase;
+  font-size: 40px;
+  font-weight: 600;
 }
 
 .about__text {
-    font-size: 20px;
+  font-size: 20px;  
 }
 
 .about__text p {
-    margin-bottom: 25px;
+  margin-bottom: 25px;
 }
 
 .about__text p:last-child {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer {
-    display: flex;
-    justify-content: space-between;
-    margin-bottom: 90px;
-    width: 1340px;
-    height: 97px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 90px;
+  width: 1340px;
+  height: 97px;
 }
 
 .footer__links-list {
-    list-style: none;
-    font-size: 18px;
-    text-align: center;
-    text-transform: lowercase;
+  list-style: none;
+  font-size: 18px;
+  text-align: center;
+  text-transform: lowercase;
 }
 
 .footer__links-list-item a {
-    text-decoration: none;
-    border-bottom: 1px solid;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 .footer__links-list-item a:hover {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .footer__social-list {
-    display: flex;
-    justify-content: space-between;
-    width: 240px;
-    list-style: none;
+  display: flex;
+  justify-content: space-between;
+  width: 240px;
+  list-style: none;
 }
 
 .footer__social-link {
-    display: block;
-    z-index: 1;
+  display: block;
+  z-index: 1;
 }
 
 .footer__logo-image {
-    height: 48px;
+  height: 48px;
 }
